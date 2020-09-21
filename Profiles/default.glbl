@@ -84,4 +84,9 @@
       <initValue>'10/11/1990'</initValue>
       <name>Date</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>pathAPK</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

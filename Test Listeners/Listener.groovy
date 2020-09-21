@@ -17,6 +17,7 @@ class Listener {
 	 */
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+		GlobalVariable.pathAPK = RunConfiguration.getProjectDir()
 		String tcName = testCaseContext.getTestCaseId()
 		/*
 		 * Activate these code if you want to screenshot all step in your test case
@@ -24,7 +25,7 @@ class Listener {
 		 * CustomKeywords.'utilities.HighlightElement.enlightMobile'()
 		 */
 		GlobalVariable.TC_Name = tcName.replace("Test Cases/", "")
-		CustomKeywords.'utilities.HighlightElement.enlightMobile'()
+		//CustomKeywords.'utilities.HighlightElement.enlightMobile'()
 		//CustomKeywords.'utilities.HighlightElement.enlightWebUiBuiltInKeywords'()
 		//CustomKeywords.'com.extension.reportportal.context.ReportPortalContext.captureScreenShotForReportportal'()
 		//CustomKeywords.'utilities.HighlightElement.pandemicStep'()
