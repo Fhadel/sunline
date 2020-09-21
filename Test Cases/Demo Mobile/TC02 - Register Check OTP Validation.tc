@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02 - Register Check OTP Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f1f002b-2f23-4841-864e-a053ad2aaf06</testCaseGuid>
+</TestCaseEntity>

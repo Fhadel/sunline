@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ServiceJSon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebfa7956-d0fc-46ef-a4d9-a37ed10e6302</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.G_Endpoint</defaultValue>
+      <description></description>
+      <id>726ba4e5-7a58-45a3-a68a-986ccaf32405</id>
+      <masked>false</masked>
+      <name>endpoint</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Spring Pet Clinic - Find Owner Session 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>681bcb91-6d2a-4756-8cc4-10f937d9b67b</testCaseGuid>
+   <variable>
+      <defaultValue>'Franklin'</defaultValue>
+      <description></description>
+      <id>42fdae60-8af2-41f9-8ed6-96a43111422f</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

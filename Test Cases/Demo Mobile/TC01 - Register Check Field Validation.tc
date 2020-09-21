@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check all validation in registration page</description>
+   <name>TC01 - Register Check Field Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1af92f9-e357-43b1-84e4-d26b1e9deac2</testCaseGuid>
+</TestCaseEntity>
