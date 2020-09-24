@@ -19,21 +19,20 @@ class Listener {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		GlobalVariable.pathAPK = RunConfiguration.getProjectDir()
 		String tcName = testCaseContext.getTestCaseId()
+		GlobalVariable.TC_Name = tcName.replace("Test Cases/", "")
 		/*
 		 * Activate these code if you want to screenshot all step in your test case
 		 * CustomKeywords.'utilities.HighlightElement.enlightWebUiBuiltInKeywords'()
 		 * CustomKeywords.'utilities.HighlightElement.enlightMobile'()
 		 */
-		GlobalVariable.TC_Name = tcName.replace("Test Cases/", "")
-		//CustomKeywords.'utilities.HighlightElement.enlightMobile'()
+		CustomKeywords.'utilities.HighlightElement.enlightMobile'()
 		//CustomKeywords.'utilities.HighlightElement.enlightWebUiBuiltInKeywords'()
 		//CustomKeywords.'com.extension.reportportal.context.ReportPortalContext.captureScreenShotForReportportal'()
 		//CustomKeywords.'utilities.HighlightElement.pandemicStep'()
 		new File (RunConfiguration.getReportFolder()+"/"+GlobalVariable.TC_Name+"/")
 		GlobalVariable.FinalScreenshotDir = RunConfiguration.getReportFolder()+"/"+GlobalVariable.TC_Name+"/"
 		//CustomKeywords.'utilities.Phoenix.connectDB'('nursyah', 'nursyah')
-		//addCase(testCaseContext)
-		
+		//addCase(testCaseContext)	
 	}
 	
 	def addCase(TestCaseContext testCaseContext){

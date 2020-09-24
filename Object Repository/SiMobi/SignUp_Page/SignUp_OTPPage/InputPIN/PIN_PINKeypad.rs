@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>SignUpPage_OTP_InputOTP</name>
+   <name>PIN_PINKeypad</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>d0f71a3f-798d-40b1-b814-ed0d6097aea9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.LinearLayout' and @package = 'com.sunline.sinarmas']</value>
+         <value>//*[@resource-id = 'com.sunline.sinarmas:id/password_1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.LinearLayout</value>
+      <value>android.widget.TextView</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>com.sunline.sinarmas:id/password_${keypad}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
@@ -45,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,28 +122,28 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1116</value>
+      <value>1436</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>1080</value>
+      <value>356</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>137</value>
+      <value>198</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[0,1116][1080,1253]</value>
+      <value>[0,1436][356,1634]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,17 +162,10 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value></value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[6]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
    </webElementProperties>
-   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[6]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]</locator>
-   <locatorStrategy>XPATH</locatorStrategy>
+   <locator>com.sunline.sinarmas:id/password_${keypad}</locator>
+   <locatorStrategy>ID</locatorStrategy>
 </MobileElementEntity>

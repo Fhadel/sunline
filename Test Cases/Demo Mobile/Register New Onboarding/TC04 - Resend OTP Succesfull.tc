@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04 - Resend OTP Succesfull</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f310028a-1c60-4e51-9483-08dd9139093b</testCaseGuid>
+</TestCaseEntity>
