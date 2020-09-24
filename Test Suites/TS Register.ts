@@ -29,4 +29,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Demo Mobile/Register New Onboarding/TC03 - Register Check PIN Validation</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c277778f-357d-4435-bf5c-3c31af81a744</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Demo Mobile/Register New Onboarding/TC04 - Resend OTP Succesfull</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>31dc5d2f-feeb-4b4c-8008-94d5be3c4398</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Demo Mobile/Register New Onboarding/TC - Register Succesful</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03 - Register Check PIN Validation</name>
+   <name>TC - Register Succesful</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>91a55ad0-b8f4-411a-98b6-52e94b1cf2b8</testCaseGuid>
+   <testCaseGuid>dd583b7f-ed6a-453b-98fb-ee0ed12d5e46</testCaseGuid>
 </TestCaseEntity>
